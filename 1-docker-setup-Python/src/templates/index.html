@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Python Docker App</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Python Docker App</h1>
+      <p>This is a minimal Flask web UI served from the Docker Python setup.</p>
+
+      <h2>Status</h2>
+      <p>Health endpoint: <a href="/health">/health</a></p>
+
+      <h2>Sample File: {{ sample_name }}</h2>
+      <pre class="code">{{ sample_content }}</pre>
+
+      <footer>
+        <p>Served by Flask inside Docker. Open <code>http://localhost/</code> in your browser.</p>
+      </footer>
+    </div>
+  </body>
+</html>

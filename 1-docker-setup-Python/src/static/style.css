@@ -1,0 +1,5 @@
+body { font-family: Arial, Helvetica, sans-serif; background: #f6f8fa; color: #333; }
+.container { max-width: 900px; margin: 40px auto; background: #fff; padding: 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+h1 { margin-top: 0; }
+.code { background: #0b1020; color: #e6eef6; padding: 12px; border-radius: 6px; overflow:auto; max-height: 480px; }
+footer { margin-top: 20px; font-size: 0.9em; color: #666; }
